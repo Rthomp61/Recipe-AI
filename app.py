@@ -96,8 +96,8 @@ def generate_pdf(recipe_text):
             story.append(Paragraph(clean_line, heading_style))
         else:
             # Regular body text
-            # Replace markdown bold with HTML bold
-            clean_line = line.replace('**', '<b>').replace('**', '</b>')
+            # Remove markdown bold formatting to avoid HTML parsing issues
+            clean_line = line.replace('**', '')
             story.append(Paragraph(clean_line, body_style))
 
     # Add footer
