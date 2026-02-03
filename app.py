@@ -12,8 +12,15 @@ from io import BytesIO
 # Load environment variables
 load_dotenv()
 
-# Configure Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# Configure Gemini API - Try Streamlit secrets first, then fall back to .env
+try:
+    # For Streamlit Cloud deployment
+    api_key = st.secrets["GEMINI_API_KEY"]
+except (KeyError, FileNotFoundError):
+    # For local development
+    api_key = os.getenv("GEMINI_API_KEY")
+
+genai.configure(api_key=api_key)
 
 # Initialize the Gemini model
 model = genai.GenerativeModel('gemini-2.5-flash')
