@@ -14,7 +14,7 @@ A Python web application that uses AI to generate creative recipes based on ingr
 
 ## Live Demo
 
-Try the app now: [Recipe AI on Streamlit Cloud](https://your-app-url.streamlit.app) *(URL will be available after deployment)*
+🚀 **Try the app now:** [Recipe AI on Streamlit Cloud](https://recipe-io.streamlit.app/)
 
 ## Local Installation
 
