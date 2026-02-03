@@ -1,12 +1,12 @@
 # 🚀 Quick Deployment Checklist
 
-Use this checklist to deploy Recipe AI to Streamlit Cloud in 10 minutes!
+Use this checklist to deploy Recipe IO to Streamlit Cloud in 10 minutes!
 
 ---
 
 ## ✅ Pre-Deployment (Already Done!)
 
-- [x] Code pushed to GitHub: https://github.com/Rthomp61/Recipe-AI
+- [x] Code pushed to GitHub: https://github.com/Rthomp61/Recipe-IO
 - [x] requirements.txt created
 - [x] .gitignore excludes secrets
 - [x] Streamlit config added
@@ -24,7 +24,7 @@ Use this checklist to deploy Recipe AI to Streamlit Cloud in 10 minutes!
 ### Step 2: Create New App (1 min)
 - [ ] Click "New app" button
 - [ ] Fill in:
-  - **Repository:** `Rthomp61/Recipe-AI`
+  - **Repository:** `Rthomp61/Recipe-IO`
   - **Branch:** `main`
   - **Main file:** `app.py`
 

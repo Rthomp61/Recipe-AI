@@ -1,4 +1,4 @@
-# 🍳 Recipe AI
+# 🍳 Recipe IO
 
 A Python web application that uses AI to generate creative recipes based on ingredients you have available. Reduce food waste and discover new meal ideas!
 
@@ -14,14 +14,14 @@ A Python web application that uses AI to generate creative recipes based on ingr
 
 ## Live Demo
 
-🚀 **Try the app now:** [Recipe AI on Streamlit Cloud](https://recipe-io.streamlit.app/)
+🚀 **Try the app now:** [Recipe IO on Streamlit Cloud](https://recipe-io.streamlit.app/)
 
 ## Local Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Rthomp61/Recipe-AI.git
-cd Recipe-AI
+git clone https://github.com/Rthomp61/Recipe-IO.git
+cd Recipe-IO
 ```
 
 2. Install the required dependencies:

@@ -1,6 +1,6 @@
-# Recipe AI PRD
+# Recipe IO PRD
 
-**Project:** Recipe AI - Smart Recipe Generator
+**Project:** Recipe IO - Smart Recipe Generator
 **Owner:** Ray Thompson
 **Date:** February 3, 2026
 
@@ -54,7 +54,7 @@ Enable home cooks to instantly transform their available ingredients into person
 
 ## Proposed Solution
 
-Recipe AI is a web-based application that uses Google's Gemini AI to instantly generate custom recipes based on user-provided ingredients. Users simply input what they have in their fridge (via text list or one-by-one), select dietary preferences and cuisine type, and receive a complete recipe with ingredients, instructions, cooking time, and description. The app prioritizes using as many available ingredients as possible to minimize waste.
+Recipe IO is a web-based application that uses Google's Gemini AI to instantly generate custom recipes based on user-provided ingredients. Users simply input what they have in their fridge (via text list or one-by-one), select dietary preferences and cuisine type, and receive a complete recipe with ingredients, instructions, cooking time, and description. The app prioritizes using as many available ingredients as possible to minimize waste.
 
 **Top 3 MVP Value Props:**
 
@@ -242,6 +242,6 @@ Legend:
 - Pivoted from "Smart Recipe Generator" to "Recipe AI" for brand clarity
 
 **Other Resources:**
-- GitHub Repository: https://github.com/Rthomp61/Recipe-AI
+- GitHub Repository: https://github.com/Rthomp61/Recipe-IO
 - Live App: http://localhost:8501 (local deployment)
 - API Documentation: Google Gemini AI Documentation

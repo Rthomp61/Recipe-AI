@@ -1,12 +1,12 @@
-# Deployment Guide - Recipe AI
+# Deployment Guide - Recipe IO
 
-This guide walks you through deploying Recipe AI to Streamlit Community Cloud in under 10 minutes.
+This guide walks you through deploying Recipe IO to Streamlit Community Cloud in under 10 minutes.
 
 ---
 
 ## Prerequisites
 
-- [x] GitHub repository (already created: https://github.com/Rthomp61/Recipe-AI)
+- [x] GitHub repository (already created: https://github.com/Rthomp61/Recipe-IO)
 - [x] Google Gemini API key
 - [ ] Streamlit Community Cloud account (free)
 
@@ -30,7 +30,7 @@ This guide walks you through deploying Recipe AI to Streamlit Community Cloud in
 1. Once logged in, click the **"New app"** button
 2. You'll see three fields to fill:
 
-   **Repository:** `Rthomp61/Recipe-AI`
+   **Repository:** `Rthomp61/Recipe-IO`
 
    **Branch:** `main`
 
@@ -214,7 +214,7 @@ git push
 - **Streamlit Docs:** https://docs.streamlit.io/streamlit-community-cloud
 - **Community Forum:** https://discuss.streamlit.io
 - **Status Page:** https://streamlit.statuspage.io
-- **GitHub Issues:** https://github.com/Rthomp61/Recipe-AI/issues
+- **GitHub Issues:** https://github.com/Rthomp61/Recipe-IO/issues
 
 ---
 

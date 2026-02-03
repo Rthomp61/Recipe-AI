@@ -48,13 +48,13 @@ def generate_recipe(ingredients, dietary_restrictions, cuisine_preference, servi
 def main():
     # Page configuration
     st.set_page_config(
-        page_title="Recipe AI",
+        page_title="Recipe IO",
         page_icon="🍳",
         layout="wide"
     )
 
     # Header
-    st.title("🍳 Recipe AI")
+    st.title("🍳 Recipe IO")
     st.subheader("Turn your fridge contents into delicious meals!")
     st.markdown("---")
 
