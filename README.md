@@ -9,7 +9,7 @@ A Python web application that uses AI to generate creative recipes based on ingr
 - **Dietary Filters**: Support for vegetarian, vegan, gluten-free, dairy-free, and nut-free diets
 - **Cuisine Preferences**: Choose from various cuisine types (Italian, Mexican, Asian, etc.)
 - **Customizable Servings**: Adjust recipe quantities for 1-8 servings
-- **Download Recipes**: Save your generated recipes as text files
+- **Download Recipes**: Save your generated recipes as professional PDF files
 - **User-Friendly Interface**: Clean, intuitive Streamlit web interface
 
 ## Live Demo
