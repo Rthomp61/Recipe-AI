@@ -12,23 +12,37 @@ A Python web application that uses AI to generate creative recipes based on ingr
 - **Download Recipes**: Save your generated recipes as text files
 - **User-Friendly Interface**: Clean, intuitive Streamlit web interface
 
-## Installation
+## Live Demo
 
-1. Install the required dependencies:
+Try the app now: [Recipe AI on Streamlit Cloud](https://your-app-url.streamlit.app) *(URL will be available after deployment)*
+
+## Local Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Rthomp61/Recipe-AI.git
+cd Recipe-AI
+```
+
+2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Your API key is already configured in the `.env` file
+3. Set up your API key:
+   - Copy `.env.example` or create a `.env` file
+   - Add your Gemini API key: `GEMINI_API_KEY=your_key_here`
 
-## Running the App
-
-Launch the Streamlit app with:
+4. Run the app locally:
 ```bash
 streamlit run app.py
 ```
 
 The app will open in your default web browser at `http://localhost:8501`
+
+## Deployment
+
+This app is deployed on Streamlit Community Cloud. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 
 ## How to Use
 
